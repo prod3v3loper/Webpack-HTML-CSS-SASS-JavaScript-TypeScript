@@ -1,5 +1,13 @@
 # Webpack-HTML-CSS-SASS-JavaScript-TypeScript
 
+The following files can be used and edited here:
+
+* HTML
+* CSS
+* SASS
+* JavaScript
+* TypeScript
+
 This package includes the following:
 
 package.json
@@ -20,14 +28,6 @@ package.json
     }
 ```
 
-The following files can be used and edited here:
-
-* HTML
-* CSS
-* SASS
-* JavaScript
-* TypeScript
-
 # INSTALL
 
 You can download the project and start it directly.
@@ -42,6 +42,8 @@ npm install
 
 # USE
 We added commands in our package.json to run with npm instead of npx
+
+package.json
 ```
     "scripts": {
         "server": "webpack-dev-server --open --config webpack.dev.js",
