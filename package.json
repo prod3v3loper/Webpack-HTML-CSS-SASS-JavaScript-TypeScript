@@ -10,7 +10,7 @@
         "watch": "webpack --watch",
         "server": "webpack-dev-server --open --config webpack.dev.js",
         "dev": "npm run server",
-        "build": "webpack --config webpack.dev.js"
+        "build": "webpack --config webpack.pro.js"
     },
     "dependencies": {},
     "devDependencies": {
