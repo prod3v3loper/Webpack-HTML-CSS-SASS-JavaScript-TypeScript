@@ -1,0 +1,12 @@
+.dssBlock {
+    position: relative;
+    background-color: red;
+    &__element {
+        width: 100%;
+        background-color: blue;
+    }
+    &--modifier {
+        width: 50%;
+        background-color: green;
+    }
+}
