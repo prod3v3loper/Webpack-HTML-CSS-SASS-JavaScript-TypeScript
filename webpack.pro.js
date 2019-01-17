@@ -5,7 +5,7 @@ module.exports = merge( common, {
     mode: 'production',
     optimization: {
         usedExports: true,
-        // minimize: false
+        minimize: true
     },
     module: {
         rules: [
